@@ -1,0 +1,11 @@
+version: '0.0.1'
+
+services:
+  movie_quote_api:
+    container_name: movie_quote_api
+    build:
+      context: ./
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./db:/var/www/db

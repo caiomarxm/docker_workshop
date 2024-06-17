@@ -1,0 +1,5 @@
+{
+    "movieQuotes": [
+        {"id": 1, "movieTitle": "Shrek", "quote": "Talvez não funcione com burros.", "isActive": true}
+    ]
+}

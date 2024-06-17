@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "movie_title": "Shrek",
+        "quote": "Talvez n\u00e3o funcione com burros.",
+        "is_active": true
+    },
+    {
+        "id": 2,
+        "movie_title": "Filme da Vida",
+        "quote": "Davy: 'Nem acordei direito'",
+        "is_active": false
+    },
+    {
+        "id": 3,
+        "movie_title": "Filme da Vida",
+        "quote": "Davy: Nem acordei direito",
+        "is_active": true
+    },
+    {
+        "id": 4,
+        "movie_title": "Filme da Vida",
+        "quote": "Davy: Nem acordei direito",
+        "is_active": true
+    }
+]
