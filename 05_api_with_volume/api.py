@@ -42,7 +42,9 @@ def read_movie_quote_by_id(
     id_: int
 ):
     if len(db) >= id_:
-        return db[id_-1]
+        quote = db[id_-1]
+        if quote.is_active:
+            return quote
 
     raise HTTPException(
         status_code=404,
